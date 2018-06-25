@@ -18,11 +18,11 @@ double loanAmnt, initPmnt, prdPmnt, stepSize, tolerance;
 const int maxPrds = 50;
 double aT[maxPrds][5]; // amortization table
 
-int begC = 0; // column number for period beginning balance
-int pmntC = 1; // column number for constant periodic payments
-int intC = 2; // column number for interest component
-int prinC = 3; // column number for principal component
-int endC = 4; // column number for period ending balance
+int begC = 0; /* column number for period beginning balance    */
+int pmntC = 1; /* column number for constant periodic payments */
+int intC = 2; /* column number for interest component          */
+int prinC = 3; /* column number for principal component        */
+int endC = 4; /* column number for period ending balance       */
 
 for (int i = 1; i <= 5; i++) {
      cout << "Enter periodic interest rate in decimal: ";
