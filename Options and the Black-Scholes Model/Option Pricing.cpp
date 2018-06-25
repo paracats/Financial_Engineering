@@ -50,12 +50,12 @@ int main(int argc, char **argv)
 }
 
 double EuroCall(
-	double S, // price of stock or underlying security
-	double K, // strike price
-	double r, // interest rate
-	double q, // dividend yield
-	double T, // remaining life
-	double sig // volatility
+	double S, /* price of stock or underlying security*/
+	double K, /* strike price                         */
+	double r, /* interest rate                        */
+	double q, /* dividend yield                       */
+	double T, /* remaining life                       */
+	double sig /* volatility                          */
 )
 
 {
@@ -68,12 +68,12 @@ double EuroCall(
 }
 
 double EuroPut(
-	double S, // price of stock or underlying security
-	double K, // strike price
-	double r, // interest rate
-	double q, // dividend yield
-	double T, // remaining life
-	double sig // volatility
+	double S, /* price of stock or underlying security*/
+	double K, /* strike price                         */
+	double r, /* interest rate                        */
+	double q, /* dividend yield                       */
+	double T, /* remaining life                       */
+	double sig /* volatility                          */
 )
 
 {
