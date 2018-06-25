@@ -9,18 +9,18 @@ double termVal(char iType, double strkPr, double termPr);
 
 int main() {
 
-const int maxPos = 50; // maximum number of different positions
-char iType[maxPos]; // instrument type, c, p, or u (underlying)
-double aPos[maxPos][3]; // col 0 number of contracts
+const int maxPos = 50;  /* maximum number of different positions    */
+char iType[maxPos];     /* instrument type, c, p, or u (underlying) */
+double aPos[maxPos][3]; /* col 0 number of contracts                */
 
  /* col 1 strike or stock purchase price*/
  /* col 2 option premium or 0 for stock */
 
-double portVal = 0.; // terminal portfolio value
-double contSize = 100; // contract size, e.g., 100 for stocks
-double lowS; // lowest terminal price of stock to show
-double prcStep; // step size for showing terminal price
-int numSteps; // number of terminal price steps
+double portVal = 0.;        /* terminal portfolio value                */
+double contSize = 100;      /* contract size, e.g., 100 for stocks     */
+double lowS;                /* lowest terminal price of stock to show  */
+double prcStep;             /* step size for showing terminal price    */
+int numSteps;               /* number of terminal price steps          */
 
 int i, j, numPos;
 
@@ -87,7 +87,7 @@ cout.width(12);
 cout << portVal; }
 
 cout << endl << endl;
-/*Wait for the user to read the output on the console*/
+/* Wait for the user to read the output on the console */
 system("PAUSE");
 
 return 0; }
