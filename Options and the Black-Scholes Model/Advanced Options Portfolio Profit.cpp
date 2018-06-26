@@ -7,7 +7,8 @@ using namespace std;
 
 double termVal(char iType, double strkPr, double termPr);
 
-int main() {
+int main() 
+{
 
 const int maxPos = 50;  /* maximum number of different positions    */
 char iType[maxPos];     /* instrument type, c, p, or u (underlying) */
@@ -31,29 +32,31 @@ double s;
 /* Get user inputs                                               */
 /*****************************************************************/
 for( i = 0; i < maxPos; i++) for(j = 0; j < 3; j++)
-aPos[i][j] = 0.;
+    aPos[i][j] = 0.;
 
 
-for(i = 0; i < 50; i++) {
-cout << "Enter instrument type. c for call, p for put, and ";
-cout << "u for stock: ";
-cin >> iType[i];
+for(i = 0; i < 50; i++) 
+{
+    cout << "Enter instrument type. c for call, p for put, and ";
+    cout << "u for stock: ";
+    cin >> iType[i];
 
-cout << "Enter number of contracts (negative for short): ";
-cin >> aPos[i][0];
+    cout << "Enter number of contracts (negative for short): ";
+    cin >> aPos[i][0];
 
-cout << "Enter strike price or stock purchase price: ";
-cin >> aPos[i][1];
+    cout << "Enter strike price or stock purchase price: ";
+    cin >> aPos[i][1];
 
-cout << "Enter premium paid/received. ";
-cout << "Enter 0 for positions in stock: ";
-cin >> aPos[i][2];
-if (aPos[i][2] < 0) aPos[i][2] = -aPos[i][2];
-if (iType[i] == 'u') aPos[i][2] = 0.;
+    cout << "Enter premium paid/received. ";
+    cout << "Enter 0 for positions in stock: ";
+    cin >> aPos[i][2];
+    if (aPos[i][2] < 0) aPos[i][2] = -aPos[i][2];
+        if (iType[i] == 'u') aPos[i][2] = 0.;
 
-cout << "Enter Y to add more positions, anything else to end: ";
-cin >> more;
-if((more != 'y') && (more != 'Y')) break; }
+            cout << "Enter Y to add more positions, anything else to end: ";
+            cin >> more;
+                if((more != 'y') && (more != 'Y')) break; 
+}
 
 cout << "Enter lowest terminal price to of stock to show: ";
 cin >> lowS;
@@ -72,29 +75,33 @@ numPos = i + 1;
 cout << " Price";
 cout << " Profit" << endl;
 
-for(s = lowS; s < (lowS + prcStep * numSteps); s += prcStep) {
-portVal = 0.;
-for(i = 0; i < numPos; i++) {
-portVal += aPos[i][0]*(termVal(iType[i], aPos[i][1], s) - aPos[i][2]) * contSize; }
+for(s = lowS; s < (lowS + prcStep * numSteps); s += prcStep) 
+{
+    portVal = 0.;
+        for(i = 0; i < numPos; i++) 
+        {
+         portVal += aPos[i][0]*(termVal(iType[i], aPos[i][1], s) - aPos[i][2]) * contSize; 
+        }
 
-cout.precision(2);
-cout.setf (ios::fixed);
-cout.setf(ios::showpoint);
+    cout.precision(2);
+    cout.setf (ios::fixed);
+    cout.setf(ios::showpoint);
 
-cout.width(12);
-cout << endl << s;
-cout.width(12);
-cout << portVal; }
+    cout.width(12);
+    cout << endl << s;
+    cout.width(12);
+    cout << portVal;
+}
 
 cout << endl << endl;
-/* Wait for the user to read the output on the console */
+
+ /* Wait for the user to read the output on the console */
 system("PAUSE");
 
 return 0; }
 
-
-
-double termVal(char iType, double strkPr, double termPr) {
+double termVal(char iType, double strkPr, double termPr) 
+{
 
 /* functions parameters:
      iType: position type, c, p, or u (underlying)
@@ -103,7 +110,8 @@ double termVal(char iType, double strkPr, double termPr) {
 
 double posVal = 0.;
 
-switch (iType) {
+switch (iType) 
+{
 case 'u':
 posVal = termPr - strkPr;
 break;
@@ -114,9 +122,11 @@ break;
 
 case 'p':
 if(termPr < strkPr) posVal = strkPr - termPr;
-break; }
+break; 
+}
 
-return posVal; }
+return posVal; 
+}
 
 
 
