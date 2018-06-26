@@ -17,13 +17,15 @@ double NP(double x);
 double N(double x);
 
 
-void help() {
+void help() 
+{
     cout << "S K r q T sig" << endl;
 }
 
 int main(int argc, char **argv)
 {
-    if (argc != 7) {
+    if (argc != 7) 
+    {
         help();
         return 1;
     }
