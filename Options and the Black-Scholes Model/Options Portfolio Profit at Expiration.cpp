@@ -7,10 +7,11 @@ using namespace std;
 
 double termVal(char iType, double strkPr, double termPr);
 
-int main() {
+int main() 
+{
 const int maxPos = 50;       /* maximum number of different positions   */
-char iType[maxPos];         /* instrument type, c, p, or u (underlying) */
-double aPos[maxPos][3];     /* col 0 number of contracts                */
+char iType[maxPos];          /* instrument type, c, p, or u (underlying) */
+double aPos[maxPos][3];      /* col 0 number of contracts                */
 
 /* col 1 strike or stock purchase price*/
 /* col 2 option premium or 0 for stock */
@@ -30,26 +31,26 @@ aPos[i][j] = 0.;
 
 for(i = 0; i < 50; i++)
 {
-cout << "Enter instrument type. c for call, p for put, and ";
-cout << "u for stock: ";
-cin >> iType[i];
+    cout << "Enter instrument type. c for call, p for put, and ";
+    cout << "u for stock: ";
+    cin >> iType[i];
 
-cout << "Enter number of contracts (negative for short): ";
-cin >> aPos[i][0];
+    cout << "Enter number of contracts (negative for short): ";
+    cin >> aPos[i][0];
 
-cout << "Enter strike price or stock purchase price: ";
-cin >> aPos[i][1];
+    cout << "Enter strike price or stock purchase price: ";
+    cin >> aPos[i][1];
 
-cout << "Enter premium paid/received. ";
-cout << " Enter 0 for positions in the stock: ";
-cin >> aPos[i][2];
-if (aPos[i][2] < 0) aPos[i][2] = -aPos[i][2];
-if (iType[i] == 'u') aPos[i][2] = 0.;
+    cout << "Enter premium paid/received. ";
+    cout << " Enter 0 for positions in the stock: ";
+    cin >> aPos[i][2];
+    if (aPos[i][2] < 0) aPos[i][2] = -aPos[i][2];
+        if (iType[i] == 'u') aPos[i][2] = 0.;
 
-cout << "Enter Y to add more positions, anything else to end: ";
-cin >> more;
-if((more != 'y') && (more != 'Y')) break;
-cout << endl;
+        cout << "Enter Y to add more positions, anything else to end: ";
+        cin >> more;
+            if((more != 'y') && (more != 'Y')) break;
+                cout << endl;
 }
 
 cout << "\nEnter terminal price of stock: ";
@@ -60,8 +61,10 @@ cin >> s;
 /*****************************************************************/
 numPos = i + 1;
 
-for(i = 0; i < numPos; i++) {
-portVal += aPos[i][0]*(termVal(iType[i], aPos[i][1], s) - aPos[i][2]) * contSize; }
+for(i = 0; i < numPos; i++) 
+{
+portVal += aPos[i][0]*(termVal(iType[i], aPos[i][1], s) - aPos[i][2]) * contSize; 
+}
 
 cout << "\nProfit on portfolio at option expiration will be: ";
 cout << portVal<< endl << endl;
@@ -71,10 +74,12 @@ cout << portVal<< endl << endl;
 system("PAUSE");
 return 0; }
 
-double termVal(char iType, double strkPr, double termPr) {
+double termVal(char iType, double strkPr, double termPr) 
+{
 
 double posVal = 0.;
-switch (iType) {
+switch (iType) 
+{
 case 'u':
 posVal = termPr - strkPr;
 break;
@@ -85,6 +90,8 @@ break;
 
 case 'p':
 if(termPr < strkPr) posVal = strkPr - termPr;
-break; }
+break; 
+}
 
-return posVal; }
+return posVal; 
+}
