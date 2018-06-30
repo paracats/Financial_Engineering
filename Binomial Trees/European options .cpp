@@ -43,7 +43,7 @@ int main(int argc, char **argv)
     /*      p is risk neutral probability of up movement       */
     p = (exp((r -q) * dt) - d) / (u - d);
 
-    stk[0][0] = S; // initial stock price at time 0
+    stk[0][0] = S;                /* initial stock price at time 0 */
 
 
     /*  generate stock price tree      */
