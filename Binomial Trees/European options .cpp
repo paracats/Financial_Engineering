@@ -46,7 +46,7 @@ int main(int argc, char **argv)
     stk[0][0] = S;                /* initial stock price at time 0 */
 
 
-    /*  generate stock price tree      */
+    /*  generate stock price tree  */
     for(j = 1; j <= n; j++)       /*  controls stepping       */
     {
         for(i = 0; i <= j; i++)
