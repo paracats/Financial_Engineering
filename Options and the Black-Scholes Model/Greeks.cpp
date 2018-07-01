@@ -66,6 +66,55 @@ cout << "Vega: "<<EuroVega(S, K, r, q, T, sig) <<endl;
 
 cout << "Call rho: "<<EuroCallRho(S, K, r, q, T, sig) <<endl;
 cout << "Put rho: "<<EuroPutRho(S, K, r, q, T, sig) <<endl;
+
+
+cout << endl;
+//Wait for the user to read the output on the console
+system("PAUSE");
+return 0;
+}
+
+
+
+double EuroCall(
+double S, // price of stock or underlying security
+double K, // strike price
+double r, // interest rate
+double q, // dividend yield
+double T, // remaining life
+double sig // volatility
+)
+
+{
+double d1, d2;
+
+d1 = (log(S/K) + (r-q +(sig*sig)*0.5 ) * T )
+/ (sig * sqrt(T));
+d2 = d1 - sig*sqrt(T);
+
+return S*exp(-q*T)*N(d1) - K*exp(-r*T)*N(d2) ;
+}
+
+
+
+double EuroPut(
+double S, // price of stock or underlying security
+double K, // strike price
+double r, // interest rate
+double q, // dividend yield
+double T, // remaining life
+double sig // volatility
+)
+
+{
+double d1, d2;
+
+d1 = (log(S/K) + (r-q +(sig*sig)*0.5 ) * T )
+/ (sig * sqrt(T));
+
+
+d2 = d1 - sig*sqrt(T);
+
 return K*exp(-r*T)*N(-d2) - S*exp(-q*T)*N(-d1) ;
 
 }
@@ -73,18 +122,19 @@ return K*exp(-r*T)*N(-d2) - S*exp(-q*T)*N(-d1) ;
 
 
 double EuroCallDelta(
-double S, /* price of stock or underlying security */
-double K, /* strike price   */
-double r, /* interest rate  */
-double q, /* dividend yield */
-double T, /* remaining life */
-double sig /* volatility    */
+double S, // price of stock or underlying security
+double K, // strike price
+double r, // interest rate
+double q, // dividend yield
+double T, // remaining life
+double sig // volatility
 )
 
 {
 double d1, d2;
 
-d1 = (log(S/K) + (r-q +(sig*sig)*0.5 ) * T ) / (sig * sqrt(T));
+d1 = (log(S/K) + (r-q +(sig*sig)*0.5 ) * T )
+/ (sig * sqrt(T));
 d2 = d1 - sig*sqrt(T);
 
 return exp(-q*T)*N(d1);
@@ -92,19 +142,178 @@ return exp(-q*T)*N(d1);
 
 
 double EuroPutDelta(
-double S,      /* price of stock or underlying security */
-double K,      /* strike price */
-double r,      /* interest rate */
-double q,      /* dividend yield */
-double T,      /* remaining life */
-double sig     /* volatility */
+double S, // price of stock or underlying security
+double K, // strike price
+double r, // interest rate
+double q, // dividend yield
+double T, // remaining life
+double sig // volatility
 )
 
 {
 double d1, d2;
 
-d1 = (log(S/K) + (r-q +(sig*sig)*0.5 ) * T ) / (sig * sqrt(T));
+d1 = (log(S/K) + (r-q +(sig*sig)*0.5 ) * T )
+/ (sig * sqrt(T));
 d2 = d1 - sig*sqrt(T);
 
 return exp(-q*T)*(N(d1)-1);
 }
+
+
+
+double EuroCallTheta(
+double S, // price of stock or underlying security
+double K, // strike price
+double r, // interest rate
+double q, // dividend yield
+double T, // remaining life
+double sig // volatility
+)
+
+{
+double d1, d2;
+
+d1 = (log(S/K) + (r-q +(sig*sig)*0.5 ) * T )
+/ (sig * sqrt(T));
+d2 = d1 - sig*sqrt(T);
+
+return -(S*NP(d1)*sig*exp(-q*T))/(2*sqrt(T))
++ (q*S*N(d1)*exp(-q*T)) - (r*K*exp(-r*T)*N(d2));
+}
+
+
+double EuroPutTheta(
+double S, // price of stock or underlying security
+double K, // strike price
+double r, // interest rate
+double q, // dividend yield
+double T, // remaining life
+double sig // volatility
+)
+
+{
+double d1, d2;
+
+d1 = (log(S/K) + (r-q +(sig*sig)*0.5 ) * T )
+/ (sig * sqrt(T));
+d2 = d1 - sig*sqrt(T);
+
+return -(S*NP(d1)*sig*exp(-q*T))/(2*sqrt(T))
+- (q*S*N(-d1)*exp(-q*T)) + (r*K*exp(-r*T)*N(-d2));
+}
+
+
+double EuroGamma(
+double S, // price of stock or underlying security
+double K, // strike price
+double r, // interest rate
+double q, // dividend yield
+double T, // remaining life
+double sig // volatility
+)
+
+{
+double d1, d2;
+
+d1 = (log(S/K) + (r-q +(sig*sig)*0.5 ) * T )
+/ (sig * sqrt(T));
+d2 = d1 - sig*sqrt(T);
+
+return (NP(d1)*exp(-q*T))/(S*sig*sqrt(T));
+}
+
+
+
+double EuroVega(
+double S, // price of stock or underlying security
+double K, // strike price
+double r, // interest rate
+double q, // dividend yield
+double T, // remaining life
+double sig // volatility
+)
+
+{
+double d1, d2;
+
+d1 = (log(S/K) + (r-q +(sig*sig)*0.5 ) * T )
+/ (sig * sqrt(T));
+d2 = d1 - sig*sqrt(T);
+
+return S*sqrt(T)*NP(d1)*exp(-q*T);
+}
+
+
+
+double EuroCallRho(
+double S, // price of stock or underlying security
+double K, // strike price
+double r, // interest rate
+double q, // dividend yield
+
+double T, // remaining life
+double sig // volatility
+)
+
+{
+double d1, d2;
+
+d1 = (log(S/K) + (r-q +(sig*sig)*0.5 ) * T )
+/ (sig * sqrt(T));
+d2 = d1 - sig*sqrt(T);
+
+return K*T*exp(-r*T)*N(d2);
+}
+
+
+
+double EuroPutRho(
+double S, // price of stock or underlying security
+double K, // strike price
+double r, // interest rate
+double q, // dividend yield
+double T, // remaining life
+double sig // volatility
+)
+
+{
+double d1, d2;
+
+d1 = (log(S/K) + (r-q +(sig*sig)*0.5 ) * T )
+/ (sig * sqrt(T));
+d2 = d1 - sig*sqrt(T);
+
+return -K*T*exp(-r*T)*N(-d2);
+}
+
+
+
+double NP(double x)
+{
+return (1.0/sqrt(2.0 * 3.1415)* exp(-x*x*0.5));
+}
+
+
+
+double N(double x)
+{
+
+double a1 = 0.319381530;
+double a2 = -0.356563782;
+double a3 = 1.781477937;
+double a4 = -1.821255978;
+double a5 = 1.330274429;
+double k;
+
+k = 1/(1+0.2316419*x);
+
+if (x >= 0.0)
+{
+return (1 - NP(x)*((a1*k) + (a2*k*k) + (a3*k*k*k) + (a4*k*k*k*k) + (a5*k*k*k*k*k)));
+}
+else
+{
+return (1-N(-x));
+}
+} 
