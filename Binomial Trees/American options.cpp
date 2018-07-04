@@ -46,12 +46,12 @@ double sig = atof(argv[1]); /* volatility                            */
  /* p is risk neutral probability of up movement*/
  p = (exp(r * dt) - d) / (u - d);
 
- stk[0][0] = S;                  /* initial stock price at time 0 */
+ stk[0][0] = S;                       /* initial stock price at time 0 */
 
 
 
 /* generate stock price tree*/
- for(j = 1; j <= n; j++) /* counts steps*/
+ for(j = 1; j <= n; j++)              /* counts steps                  */
  {
  for(i = 0; i <= j; i++)
  {
@@ -61,7 +61,7 @@ double sig = atof(argv[1]); /* volatility                            */
  }
 
  /* generate option value tree*/
- for(j = n; j >= 0; j--)             /* counts steps backward  */
+ for(j = n; j >= 0; j--)             /* counts steps backward            */
  {
  for(i = 0; i <= j; i++)
  {
@@ -113,7 +113,7 @@ cout << endl;
  {
  /*
  functions parameters:
- iType: position type, c, p, or u (underlying)
+  iType: position type, c, p, or u (underlying)
  strkPr: strike price of option or purchase price of u
  termPr: terminal price of u
  */
