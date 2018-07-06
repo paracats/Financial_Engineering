@@ -10,7 +10,6 @@
  double termVal(char iType, double strkPr, double termPr);
  void printTree(double tree[][10], int numSteps, double timeStep);
 
-
 int main(int argc, char **argv)
 {
 if (argc != 6) 
@@ -48,9 +47,7 @@ double sig = atof(argv[1]); /* volatility                            */
 
  stk[0][0] = S;                  /* initial stock price at time 0 */
 
-
-
-/* generate stock price tree*/
+/* generate stock price tree* /
  for(j = 1; j <= n; j++) /* counts steps*/
  {
  for(i = 0; i <= j; i++)
@@ -60,8 +57,8 @@ double sig = atof(argv[1]); /* volatility                            */
  }
  }
 
- /* generate option value tree*/
- for(j = n; j >= 0; j--)             /* counts steps backward  */
+ /* generate option value tree */
+ for(j = n; j >= 0; j--)          /* counts steps backward         */
  {
  for(i = 0; i <= j; i++)
  {
@@ -105,7 +102,6 @@ double sig = atof(argv[1]); /* volatility                            */
  return 0;
  }
 
-
  double termVal(char iType, double strkPr, double termPr)
  {
  /*
@@ -134,8 +130,6 @@ double sig = atof(argv[1]); /* volatility                            */
 
  return posVal;
  }
-
-
 
 void printTree(double tree[][10], int numSteps, double timeStep)
 {
