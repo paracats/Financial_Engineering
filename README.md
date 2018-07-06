@@ -1,4 +1,4 @@
-# `C++`_and_`Python`_for_Quantitative_Finance
+# `C++`_and_`Python` for Quantitative Finance
 
 Concepts and Applications of quantitative finance.
 
