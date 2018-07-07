@@ -95,9 +95,6 @@ for(s = lowS; s < (lowS + prcStep * numSteps); s += prcStep)
 
 cout << endl << endl;
 
- /* Wait for the user to read the output on the console */
-system("PAUSE");
-
 return 0; }
 
 double termVal(char iType, double strkPr, double termPr) 
