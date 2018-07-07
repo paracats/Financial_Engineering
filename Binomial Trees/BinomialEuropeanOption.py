@@ -1,7 +1,6 @@
 
 """ Binomial European Option  """
-
-""" David Li                """
+""" David Li                  """
 
 
 """ Store common attributes of a stock option """
