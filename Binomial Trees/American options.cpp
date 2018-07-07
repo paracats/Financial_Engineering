@@ -98,7 +98,6 @@ double sig = atof(argv[1]); /* volatility                            */
 
  cout << endl;
 
- system("PAUSE");
  return 0;
  }
 
