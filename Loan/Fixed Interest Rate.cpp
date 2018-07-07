@@ -141,8 +141,6 @@ for (int i = 1; i <= 5; i++)
 	printT(bT, i - 1);
 	cout << endl << endl;
 
- /* Wait for the user to read the output on the console          */
-	system("PAUSE");
 	return 0; }
 
 double remainBal(int life, double loan, double rate, double pmnt)
