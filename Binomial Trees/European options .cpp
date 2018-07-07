@@ -89,7 +89,6 @@ int main(int argc, char **argv)
     printTree(euro, n, dt);
     cout << endl;
 
-    system("PAUSE");
     return 0;
 }
 
