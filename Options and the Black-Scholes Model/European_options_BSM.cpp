@@ -147,6 +147,5 @@ Option::Option()
 
  cout << endl;
  
- system("PAUSE");
  return 0;
  }
