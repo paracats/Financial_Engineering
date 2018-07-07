@@ -69,9 +69,6 @@ portVal += aPos[i][0]*(termVal(iType[i], aPos[i][1], s) - aPos[i][2]) * contSize
 cout << "\nProfit on portfolio at option expiration will be: ";
 cout << portVal<< endl << endl;
 
-
-/*     Wait for the user to read the output on the console   */
-system("PAUSE");
 return 0; }
 
 double termVal(char iType, double strkPr, double termPr) 
