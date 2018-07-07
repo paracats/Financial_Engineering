@@ -27,8 +27,6 @@ cin >> s;
 cout << "\nTerminal value of position is: ";
 cout << termVal(iType, K, s) << endl << endl;
 
-/* Wait for the user to read the output on the console */
-system("PAUSE");
 return 0; }
 
 double termVal(char iType, double strkPr, double termPr) 
