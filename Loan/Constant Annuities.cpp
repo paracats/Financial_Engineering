@@ -174,7 +174,6 @@ if (i == 500)
  }
 }
 
- system("PAUSE");
  return 0; }
 
  int getInput(string msg, int min, int max)
