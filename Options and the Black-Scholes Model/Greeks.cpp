@@ -70,7 +70,6 @@ cout << "Put rho: "<<EuroPutRho(S, K, r, q, T, sig) <<endl;
 
 cout << endl;
   
-system("PAUSE");
 return 0;
 }
 
