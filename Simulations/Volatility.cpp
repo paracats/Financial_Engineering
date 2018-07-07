@@ -38,7 +38,6 @@ dlyRet[i] = log(stkPrc[i]/stkPrc[i+1]);
 cout << "Annualized volatility is: ";
 cout << stdDev(dlyRet, numPnts -1, 'p') * sqrt(250.) << endl;
 
-system("PAUSE");
 return 0;
 }
 
