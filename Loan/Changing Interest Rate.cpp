@@ -245,9 +245,7 @@ cout << aT[loanLife-1][endC] << endl << endl;
 
 printT(aT, loanLife);
 cout << endl << endl;
-
-/*     Wait for the user to read the output on the console      */ 
-system("PAUSE");
+	
 return 0;
 }
 
