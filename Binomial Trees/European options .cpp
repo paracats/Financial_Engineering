@@ -51,14 +51,14 @@ int main(int argc, char **argv)
     {
         for(i = 0; i <= j; i++)
         {
-            if (i == 0) 
-            {
-                stk[i][j] = stk[i][j-1] * u;
-            }
-            else 
-            {
-                stk[i][j] = stk[i-1][j-1] * d;
-            }
+          if (i == 0) 
+          {
+              stk[i][j] = stk[i][j-1] * u;
+          }
+          else 
+          {
+              stk[i][j] = stk[i-1][j-1] * d;
+          }
         }
     }
 
@@ -67,14 +67,14 @@ int main(int argc, char **argv)
     {
         for(i = 0; i <= j; i++)
         {
-            if (j == n) 
-            {
-                euro[i][j] = termVal(optType, K, stk[i][j]);
-            }
-            else 
-            {
-                euro[i][j] = (p * euro[i][j+1] + (1 -p) * euro [i+1][j+1]) * emrdt;
-            }
+          if (j == n) 
+          {
+              euro[i][j] = termVal(optType, K, stk[i][j]);
+          }
+          else 
+          {
+              euro[i][j] = (p * euro[i][j+1] + (1 -p) * euro [i+1][j+1]) * emrdt;
+          }
         }
     }
 
