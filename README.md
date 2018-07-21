@@ -7,6 +7,8 @@ Concepts and Applications of quantitative finance.
 - Options and the Black-Scholes Model
 - Binomial Trees
 - Simulations
+- Backtesting
+
 
 
 
