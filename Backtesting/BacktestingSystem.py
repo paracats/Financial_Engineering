@@ -1,4 +1,5 @@
-
+""" BacktestingSystem         """
+""" David Li                  """
 
 from BacktesterClass import Backtester
 
