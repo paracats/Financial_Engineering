@@ -1,4 +1,7 @@
+""" BacktesterClass                  """
+""" David Li                         """
 """ Base strategy for implementation """
+
 class Strategy:
     def __init__(self):
         self.event_sendorder = None
