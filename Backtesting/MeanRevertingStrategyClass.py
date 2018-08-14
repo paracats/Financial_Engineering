@@ -1,7 +1,9 @@
+""" Mean Reverting Strategy Class       """
+""" David Li                            """
 """
 Implementation of a mean-reverting strategy
-based on the Strategy class
-"""
+based on the Strategy class             """
+
 import pandas as pd
 from StrategyClass import Strategy
 
