@@ -1,4 +1,5 @@
-
+""" MarketDataClass           """
+""" David Li                  """
 
 class MarketData:
     def __init__(self):
