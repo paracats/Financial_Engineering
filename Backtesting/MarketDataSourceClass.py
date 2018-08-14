@@ -1,4 +1,5 @@
-
+""" MarketDataSourceClass           """
+""" David Li                        """
 
 import pandas.io.data as web
 
