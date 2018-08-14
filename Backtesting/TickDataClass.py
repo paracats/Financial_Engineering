@@ -1,3 +1,6 @@
+""" Tick Data Class           """
+""" David Li                  """
+
 class TickData:
     """ Store a single unit of data """
     def __init__(self, symbol, timestamp,
