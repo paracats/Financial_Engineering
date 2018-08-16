@@ -70,7 +70,7 @@ def get_data_dict(text, name, time):
 if __name__ == '__main__':
     dataset = []
 
-    with open('TASK1.csv', 'r') as csv:
+    with open('Sample.csv', 'r') as csv:
         spamreader = reader(csv)
         next(spamreader, None) # skip the headers
 
