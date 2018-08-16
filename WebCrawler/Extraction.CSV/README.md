@@ -1,6 +1,6 @@
 ## CSV File Extraction
 
-### Downloading 10-Ks for firms during the calendar year automatically, and determine and tabulate the following information for each filing
+### Downloading 10-Ks for firms during the calendar year automatically, and determine and tabulate the following information for each filing:
 
 - The number of words in the overall 10-K filing 
 - The number of words in the filing’s “Management Discussion and Analysis” section
