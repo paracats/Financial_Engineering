@@ -11,7 +11,7 @@ Concepts and Applications of quantitative finance.
 - Simulations
 - Algorithmic Trading
 - Backtesting
-
+- Polymorphism
 
 
 
