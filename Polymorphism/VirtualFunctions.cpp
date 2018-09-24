@@ -112,8 +112,6 @@
  pb->compute(10,20);
 
  cout << endl;
- //Wait for the user to read the output on the console
- system("PAUSE");
  return 0;
  }
 
