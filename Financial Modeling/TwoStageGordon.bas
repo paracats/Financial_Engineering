@@ -1,3 +1,4 @@
+
 Function TwoStageGordon(P0, Div0, Highgrowth, _    
 Highgrowthyrs, Normalgrowth)        
     high  =  1        
