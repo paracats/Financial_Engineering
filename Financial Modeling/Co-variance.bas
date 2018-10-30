@@ -1,6 +1,4 @@
-
- 
-Function VarCovar(rng As Range) As Variant 
+ Function VarCovar(rng As Range) As Variant 
     Dim i As Integer       
     Dim j As Integer   
     Dim numcols As Integer 
