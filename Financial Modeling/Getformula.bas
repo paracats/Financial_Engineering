@@ -1,3 +1,4 @@
+
 Function getformula(r As Range) As String
     Application.Volatile
     If r.HasArray Then
