@@ -11,6 +11,7 @@ As Variant
     If Abs(corr)  >  =  1 Then GoTo Out        
     For i  =  1 To numcols        
     For j  =  1 To numcols   
+        F
 
 
 
