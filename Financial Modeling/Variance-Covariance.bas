@@ -21,7 +21,9 @@ As Variant
      Next j 
      Next i 
 Out:
-
+    If Abs(corr)  >  =  1 Then constantcorr  =  VarCovar(data) _ 
+    Else constantcorr  =  matrix 
+   End Function
 
 
 
