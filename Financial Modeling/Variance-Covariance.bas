@@ -20,10 +20,10 @@ As Variant
        End If
      Next j 
      Next i 
-Out:
+ Out:
     If Abs(corr)  >  =  1 Then constantcorr  =  VarCovar(data) _ 
     Else constantcorr  =  matrix 
-   End Function
+End Function
 
 
 
