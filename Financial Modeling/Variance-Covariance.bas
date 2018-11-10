@@ -15,7 +15,7 @@ As Variant
         matrix(i - 1, j - 1)  =  Application. _           
         WorksheetFunction.Var_S(data.Columns(i))           
         Else 
-        matrix(i - 1, j - 1)  =  corr * jjunk(data, i) * _ 
+       matrix(i - 1, j - 1)  =  corr * jjunk(data, i) * _ 
         jjunk(data, j) 
        End If
      Next j 
