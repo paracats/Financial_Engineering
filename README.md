@@ -4,6 +4,7 @@ Concepts and Applications of quantitative finance.
 
 ## Financial topics: 
 
+- Financial Modeling
 - WebCrawler
 - Loan
 - Options and the Black-Scholes Model
