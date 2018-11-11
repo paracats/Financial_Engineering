@@ -13,4 +13,4 @@
    Next j       
    Next i       
    BLtracking  =  matrix 
- 
+End Function 
