@@ -6,6 +6,7 @@ Function tintercept(yarray, xarray)
     xarray, , 1), 2, 2)    
 End Function  
 
+
 Function tslope(yarray, xarray)        
     tslope  =  Application.Index(Application. _        
     LinEst(yarray, xarray, , 1), 1, 1) / _        
