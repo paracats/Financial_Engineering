@@ -1,5 +1,5 @@
 
- Function Binomial_eur_call(Up, Down, Interest, _    
+Function Binomial_eur_call(Up, Down, Interest, _    
  Stock, Exercise, Periods) 
    q_up  =  (Interest - Down) / _       
    (Interest * (Up - Down))       
@@ -13,7 +13,6 @@
    ∧  (Periods - Index) - Exercise, 0)       
  Next Index    
 End Function   
-
 
  Function Binomial_eur_put(Up, Down, Interest, _    
  Stock, Exercise, Periods)   
