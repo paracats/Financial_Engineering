@@ -12,3 +12,7 @@ def load_web_page(url):
     soup = BeautifulSoup(request.urlopen(url), 'html.parser')
     page = soup.text
     
+    
+    
+    
+    
