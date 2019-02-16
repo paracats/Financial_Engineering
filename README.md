@@ -2,6 +2,7 @@
 
 Concepts and Applications of quantitative finance.
 
+
 ## Financial topics: 
 
 - Financial Modeling
