@@ -11,7 +11,11 @@ from json import dumps
 def load_web_page(url):
     soup = BeautifulSoup(request.urlopen(url), 'html.parser')
     page = soup.text
-    
+
+    for char in '\n.,()':
+        page = page.replace(char,' ')
+
+
     
     
     
