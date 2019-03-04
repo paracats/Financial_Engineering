@@ -15,6 +15,8 @@ def load_web_page(url):
     for char in '\n.,()':
         page = page.replace(char,' ')
 
+    return page
+
 
     
     
