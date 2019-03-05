@@ -17,6 +17,9 @@ def load_web_page(url):
 
     return page
 
+def get_data_dict(text, name, time):
+    data = {'name': name, 'time': time}
+
 
     
     
