@@ -1,5 +1,6 @@
-""" BacktestingSystem         """
-""" David Li                  """
+""" C++ For Quantitative Finance       """ 
+""" BacktestingSystem                  """
+""" David Li                           """
 
 from BacktesterClass import Backtester
 
