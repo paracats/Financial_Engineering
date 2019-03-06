@@ -1,5 +1,6 @@
-""" Tick Data Class           """
-""" David Li                  """
+""" C++ For Quantitative Finance       """ 
+""" Tick Data Class                    """
+""" David Li                           """
 
 class TickData:
     """ Store a single unit of data """
