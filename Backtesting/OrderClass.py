@@ -1,5 +1,6 @@
-""" Order Class               """
-""" David Li                  """
+""" C++ For Quantitative Finance       """ 
+""" Order Class                        """
+""" David Li                           """
 
 class Order:
     def __init__(self, timestamp, symbol, qty, is_buy,
