@@ -20,6 +20,11 @@ def load_web_page(url):
 def get_data_dict(text, name, time):
     data = {'name': name, 'time': time}
 
+    """ 
+    The number of words in the overall 10-K filing 
+    (not including HTML tags)
+    """
+
 
     
     
