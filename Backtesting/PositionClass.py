@@ -1,5 +1,6 @@
-""" PositionClass             """
-""" David Li                  """
+""" C++ For Quantitative Finance       """ 
+""" PositionClass                      """
+""" David Li                           """
 
 class Position:
     def __init__(self):
