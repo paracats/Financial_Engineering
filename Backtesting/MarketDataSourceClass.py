@@ -1,3 +1,4 @@
+""" C++ For Quantitative Finance    """ 
 """ MarketDataSourceClass           """
 """ David Li                        """
 
