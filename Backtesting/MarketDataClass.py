@@ -1,5 +1,6 @@
-""" MarketDataClass           """
-""" David Li                  """
+""" C++ For Quantitative Finance       """ 
+""" MarketDataClass                    """
+""" David Li                           """
 
 class MarketData:
     def __init__(self):
