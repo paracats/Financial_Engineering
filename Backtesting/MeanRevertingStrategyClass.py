@@ -1,3 +1,4 @@
+""" C++ For Quantitative Finance        """ 
 """ Mean Reverting Strategy Class       """
 """ David Li                            """
 """
