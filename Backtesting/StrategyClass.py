@@ -1,3 +1,4 @@
+""" C++ For Quantitative Finance     """ 
 """ BacktesterClass                  """
 """ David Li                         """
 """ Base strategy for implementation """
