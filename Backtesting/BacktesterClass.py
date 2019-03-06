@@ -1,5 +1,6 @@
-""" BacktesterClass          """
-""" David Li                 """
+""" C++ For Quantitative Finance       """ 
+""" BacktesterClass                    """
+""" David Li                           """
 
 import datetime as dt
 import pandas as pd
