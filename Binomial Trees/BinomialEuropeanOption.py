@@ -1,6 +1,7 @@
 
-""" Binomial European Option  """
-""" David Li                  """
+""" C++ For Quantitative Finance        """ 
+""" Binomial European Option            """
+""" David Li                            """
 
 
 """ Store common attributes of a stock option """
