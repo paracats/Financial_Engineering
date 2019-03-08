@@ -24,6 +24,7 @@ def get_data_dict(text, name, time):
     The number of words in the overall 10-K filing 
     (not including HTML tags)
     """
+    data['num_of_words'] = len(text.split())
 
 
     
