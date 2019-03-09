@@ -1,4 +1,3 @@
-
 """ C++ For Quantitative Finance  """  
 """ Binomial American Option      """
 """ David Li                      """
