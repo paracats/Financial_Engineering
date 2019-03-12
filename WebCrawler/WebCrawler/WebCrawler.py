@@ -26,6 +26,13 @@ def get_data_dict(text, name, time):
     """
     data['num_of_words'] = len(text.split())
 
+    """
+    Get MD&A section
+    """
+    pre = 'Management’s Discussion and Analysis of Financial Condition and Results of Operations'.lower()
+    suf = 'Quantitative and Qualitative Disclosures About Market Risk'.lower()
+    text_MDA = text[text.lower().rfind(pre) + len(pre) : text.lower().rfind(suf)]
+
 
     
     
