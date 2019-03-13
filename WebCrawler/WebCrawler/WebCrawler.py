@@ -33,6 +33,13 @@ def get_data_dict(text, name, time):
     suf = 'Quantitative and Qualitative Disclosures About Market Risk'.lower()
     text_MDA = text[text.lower().rfind(pre) + len(pre) : text.lower().rfind(suf)]
 
+    """
+    The number of words in the filing’s “Management 
+    Discussion and Analysis” (MD&A) section
+    """
+    data['words_in_MDA'] = len(text_MDA.split()) - 2
+
+
 
     
     
