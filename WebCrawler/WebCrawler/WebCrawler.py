@@ -38,7 +38,11 @@ def get_data_dict(text, name, time):
     Discussion and Analysis” (MD&A) section
     """
     data['words_in_MDA'] = len(text_MDA.split()) - 2
-
+    
+    """
+    The number of times the word “competition” 
+    is mentioned in the MD&A section
+    """
 
 
     
