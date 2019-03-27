@@ -39,6 +39,11 @@ def get_data_dict(text, name, time):
     """
     data['words_in_MDA'] = len(text_MDA.split()) - 2
 
+    """
+    The number of times the word “competition” 
+    is mentioned in the MD&A section
+    """
+    data['competition_in_MDA'] = text_MDA.lower().count('competition')
 
     
     
