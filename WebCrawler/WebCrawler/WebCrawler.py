@@ -45,6 +45,11 @@ def get_data_dict(text, name, time):
     """
     data['competition_in_MDA'] = text_MDA.lower().count('competition')
 
+    """
+    The ten words before and ten words after 
+    the date mentioned in the MD&A section
+    """
+    p = compile(
     
     
     
