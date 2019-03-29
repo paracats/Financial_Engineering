@@ -50,7 +50,9 @@ def get_data_dict(text, name, time):
     the date mentioned in the MD&A section
     """
     p = compile(
-    
+        '(((Jan(uary)?|Mar(ch)?|May|Jul(y)?|Aug(ust)?|Oct(ober)?|Dec(ember)?)( |-|\/)(30|31))| ((Apr(il)?|Jun(e)?|Sep(tember)?|Nov(ember)?)( |-|\/)30)|((Jan(uary)?|Feb(ruary)?|Mar(ch)?|Apr(il)?|May|Jun(e)?|Jul(y)?|Aug(ust)?|Sep(tember)?|Oct(ober)?|Nov(ember)?|Dec(ember)?)( |-|\/)((0|1|2)?[0-9])))|(((0?1|0?3|0?5|0?7|0?8|10|12)(-|\/)(30|31))|((0?4|0?6|0?9|11)(-|\/)30)|((0?1|0?2|0?3|0?4|0?5|0?6|0?7|0?8|0?9|10|11|12)(-|\/)((0|1|2)?[0-9])))(-|\/)(\d{2}(\d{2})?)',
+        flags=IGNORECASE
+    )
     
     
     
