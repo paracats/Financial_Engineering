@@ -54,5 +54,7 @@ def get_data_dict(text, name, time):
         flags=IGNORECASE
     )
     data['date_text'] = []
-    
+    for m in p.finditer(text):
+        pre = text[m.start()-400:m.start()].split()
+        suf = text[m.end():m.end()+400].split()
     
