@@ -57,4 +57,4 @@ def get_data_dict(text, name, time):
     for m in p.finditer(text):
         pre = text[m.start()-400:m.start()].split()
         suf = text[m.end():m.end()+400].split()
-    
+        data['date_text'].append({
