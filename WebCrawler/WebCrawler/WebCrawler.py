@@ -62,3 +62,20 @@ def get_data_dict(text, name, time):
             'pre': pre[-10:],
             'suf': suf[:10]
         })
+        
+    """
+    Return data as a dict
+    """
+    return data
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
