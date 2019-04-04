@@ -67,7 +67,8 @@ def get_data_dict(text, name, time):
     Return data as a dict
     """
     return data
-        
+    
+if __name__ == '__main__':
         
         
         
