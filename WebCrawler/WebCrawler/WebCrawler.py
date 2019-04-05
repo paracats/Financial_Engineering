@@ -69,6 +69,7 @@ def get_data_dict(text, name, time):
     return data
     
 if __name__ == '__main__':
+    dataset = []
         
         
         
