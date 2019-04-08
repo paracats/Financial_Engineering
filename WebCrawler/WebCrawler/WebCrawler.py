@@ -72,7 +72,7 @@ if __name__ == '__main__':
     dataset = []
 
     with open('TASK1.csv', 'r') as csv:
-        
+        spamreader = reader(csv)
         
         
         
