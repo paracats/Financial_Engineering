@@ -73,7 +73,7 @@ if __name__ == '__main__':
 
     with open('TASK1.csv', 'r') as csv:
         spamreader = reader(csv)
-        
+        next(spamreader, None) # skip the headers
         
         
         
