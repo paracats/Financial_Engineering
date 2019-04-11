@@ -76,7 +76,7 @@ if __name__ == '__main__':
         next(spamreader, None) # skip the headers
 
         for row in spamreader:
-        
+            print(row[0], end='')
         
         
         
