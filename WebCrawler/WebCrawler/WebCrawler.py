@@ -77,7 +77,10 @@ if __name__ == '__main__':
 
         for row in spamreader:
             print(row[0], end='')
-        
+            # ignore the empty url
+            if row[3] == '':
+                print('... [skip]')
+                continue
         
         
         
