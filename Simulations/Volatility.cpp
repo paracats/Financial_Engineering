@@ -2,14 +2,12 @@
 /* Volatility Calculation                          */
 /* Author: David Li                                */
 
-
 #include <iostream>
 #include <cmath>
 using namespace std;
 
 double mean(double inData[], int sampSize);
 double stdDev(double inData[], int sampSize, char statType = 'p');
-
 
 int main(int argc, char** argv)
 {
