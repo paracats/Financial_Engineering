@@ -81,7 +81,8 @@ if __name__ == '__main__':
             if row[3] == '':
                 print('... [skip]')
                 continue
-        
+
+            # extract data and save it
         
         
         
