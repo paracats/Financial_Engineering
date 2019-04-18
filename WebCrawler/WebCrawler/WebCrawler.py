@@ -85,6 +85,7 @@ if __name__ == '__main__':
 
             # extract data and save it
             page = load_web_page(row[3])
+            data = get_data_dict(page, row[0], row[2])
         
         
         
