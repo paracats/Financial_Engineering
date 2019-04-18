@@ -82,7 +82,9 @@ if __name__ == '__main__':
                 print('... [skip]')
                 continue
 
+
             # extract data and save it
+            page = load_web_page(row[3])
         
         
         
