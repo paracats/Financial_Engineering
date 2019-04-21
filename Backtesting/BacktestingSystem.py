@@ -1,4 +1,4 @@
-""" C++ For Quantitative Finance       """ 
+""" Python For Quantitative Finance       """ 
 """ BacktestingSystem                  """
 """ David Li                           """
 
