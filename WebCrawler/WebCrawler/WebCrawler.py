@@ -1,7 +1,6 @@
 """ David Li               """
 """ Web Crawler            """
 
-
 from csv import reader
 from urllib import request
 from bs4 import BeautifulSoup
