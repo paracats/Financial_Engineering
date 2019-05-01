@@ -88,5 +88,7 @@ if __name__ == '__main__':
             dataset.append(data)
             print('... [done]')
     
+    with open('dataset.json', 'w') as f:
+    
         
         
