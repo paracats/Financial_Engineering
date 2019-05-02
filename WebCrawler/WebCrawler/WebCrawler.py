@@ -89,6 +89,7 @@ if __name__ == '__main__':
             print('... [done]')
     
     with open('dataset.json', 'w') as f:
+        f.write(dumps(dataset))
     
         
         
