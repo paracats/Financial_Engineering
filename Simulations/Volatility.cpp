@@ -2,6 +2,7 @@
 /* Volatility Calculation                          */
 /* Author: David Li                                */
 
+
 #include <iostream>
 #include <cmath>
 using namespace std;
