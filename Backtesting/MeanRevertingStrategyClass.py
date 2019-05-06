@@ -1,4 +1,4 @@
-""" Python For Quantitative Finance        """ 
+""" Python For Quantitative Finance     """ 
 """ Mean Reverting Strategy Class       """
 """ David Li                            """
 """
