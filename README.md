@@ -6,6 +6,7 @@ Concepts and Applications of quantitative finance using C++ & Python & Visual Ba
 ## Financial topics: 
 
 - Financial Modeling
+  - abc
 - Loan
 - Options and the Black-Scholes Model
 - Binomial Trees
