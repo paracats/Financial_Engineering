@@ -1,5 +1,5 @@
 """ David Li               """
-""" Web Crawler            """
+""" Web Scraping           """
 
 
 from csv import reader
