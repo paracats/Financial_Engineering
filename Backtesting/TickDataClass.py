@@ -1,4 +1,4 @@
-""" Python For Quantitative Finance       """ 
+""" Python For Quantitative Finance    """ 
 """ Tick Data Class                    """
 """ David Li                           """
 
