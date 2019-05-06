@@ -1,4 +1,4 @@
-# 'C++' & 'Python' & 'Visual Basic' for Quantitative Finance
+# '''C++''' & 'Python' & 'Visual Basic' for Quantitative Finance
 
 Concepts and Applications of quantitative finance.
 
