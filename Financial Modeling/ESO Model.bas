@@ -1,3 +1,7 @@
+' VBA For Quantitative Finance                                
+' ESO Model
+' Author: David Li   
+
 Function ESO(Stock As Double, X As Double, T As _
 Double, Vest As Double, Interest As Double, _
 Sigma As Double, Divrate As Double, _
