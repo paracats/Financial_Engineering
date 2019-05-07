@@ -1,3 +1,6 @@
+' VBA For Quantitative Finance                                
+' BinomialEurPut
+' Author: David Li   
 
 Function Binomial_eur_call(Up, Down, Interest, _    
  Stock, Exercise, Periods) 
