@@ -1,3 +1,8 @@
+
+' VBA For Quantitative Finance                                
+' AmericanPuts
+' Author: David Li   
+
 Function Binomial_amer_put(Up, Down, Interest, _
 Stock, Exercise, Periods)
     q_up = (Interest - Down) / (Interest * _
