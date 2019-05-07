@@ -1,3 +1,6 @@
+' VBA For Quantitative Finance                                
+' BLtracking
+' Author: David Li   
 
  Function BLtracking(rng As Range) As Variant   
    Dim i As Integer       
