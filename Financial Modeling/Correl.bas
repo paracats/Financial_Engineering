@@ -1,3 +1,6 @@
+' VBA For Quantitative Finance                                
+' Correl
+' Author: David Li   
 
  Function CorrMatrix(rng As Range) As Variant 
   Dim i As Integer       
