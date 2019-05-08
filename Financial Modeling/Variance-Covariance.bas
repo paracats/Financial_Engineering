@@ -1,3 +1,6 @@
+' VBA For Quantitative Finance                                
+' Variance-Covariance
+' Author: David Li  
 
 Function constantcorr(data As Range, corr As Double) _    
 As Variant 
