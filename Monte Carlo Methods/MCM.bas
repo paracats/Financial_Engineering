@@ -2,7 +2,6 @@
 ' Monte Carlo Methods
 ' Author: David Li                                           
 
-
 Function SuccessfulRuns(Initial, _
 Drawdown, Interest, Mean, Sigma, _
 PercentRisky, Years, Runs)
