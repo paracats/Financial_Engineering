@@ -1,5 +1,7 @@
-""" David Li               """
-""" Web Scraping           """
+
+""" Quantitative Finance    """
+""" David Li                """
+""" Web Scraping            """
 
 
 from csv import reader
