@@ -125,7 +125,11 @@ class ReutersParser(HTMLParser):
        Open the topic list file and import all of the topic names
        taking care to strip the trailing "\n" from each word.
        """
-
+       topics = open(
+           "data/all-topics-strings.lc.txt", "r"
+       ).readlines()
+       topics = [t.strip() for t in topics]
+       return topics
 
 
 
