@@ -131,9 +131,44 @@ class ReutersParser(HTMLParser):
        topics = [t.strip() for t in topics]
        return topics
 
+def filter_doc_list_through_topics(topics, docs):
+    """
+    Reads all of the documents and creates a new list of two-tuples
+    that contain a single feature entry and the body text, instead of
+    a list of topics. It removes all geographic features and only
+    retains those documents which have at least one non-geographic
+    topic.
+    """
+    ref_docs = []
+    for d in docs:
+        if d[0] == [] or d[0] == "":
+            continue
+        for t in d[0]:
+            if t in topics:
+                d_tup = (t, d[1])
+                ref_docs.append(d_tup)
+                break
+    return ref_docs
 
-
-
+def create_tfidf_training_data(docs):
+    """
+    Creates a document corpus list (by stripping out the
+    class labels), then applies the TF-IDF transform to this
+    list.
+    
+    The function returns both the class label vector (y) and
+    the corpus token/feature matrix (X).
+    """
+    # Create the training data class labels
+    y = [d[0] for d in docs]
+      
+    # Create the document corpus list
+    corpus = [d[1] for d in docs]
+      
+    # Create the TF-IDF vectoriser and transform the corpus
+    vectorizer = TfidfVectorizer(min_df=1)
+    X = vectorizer.fit_transform(corpus)
+    return X, y
 
 
 
