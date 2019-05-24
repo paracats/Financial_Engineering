@@ -170,8 +170,45 @@ def create_tfidf_training_data(docs):
     X = vectorizer.fit_transform(corpus)
     return X, y
 
+def train_svm(X, y):
+     """
+     Create and train the Support Vector Machine.
+     """
+     svm = SVC(C=1000000.0, gamma="auto", kernel=’rbf’)
+     svm.fit(X, y)
+     return svm
 
+if __name__ == "__main__":
+    # Create the list of Reuters data and create the parser
+    files = ["data/reut2-%03d.sgm" % r for r in range(0, 22)]
+    parser = ReutersParser()
+    # Parse the document and force all generated docs into
+    # a list so that it can be printed out to the console
+    docs = []
+    for fn in files:
+        for d in parser.parse(open(fn, ’rb’)):
+            docs.append(d)
+            
+    # Obtain the topic tags and filter docs through it
+    topics = obtain_topic_tags()
+    ref_docs = filter_doc_list_through_topics(topics, docs)
 
+    # Vectorise and TF-IDF transform the corpus
+    X, y = create_tfidf_training_data(ref_docs)
+   
+    # Create the training-test split of the data
+    X_train, X_test, y_train, y_test = train_test_split(
+        X, y, test_size=0.2, random_state=42
+    )
+   
+    # Create and train the Support Vector Machine
+    svm = train_svm(X_train, y_train)
 
+    # Make an array of predictions on the test set
+    pred = svm.predict(X_test)
+
+    # Output the hit-rate and the confusion matrix for each model
+    print(svm.score(X_test, y_test))
+    print(confusion_matrix(pred, y_test))
 
 
