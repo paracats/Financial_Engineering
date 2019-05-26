@@ -2,7 +2,6 @@
 """ Monthly_Rebalance_Run              """
 """ David Li                           """
 
-
 import datetime
 
 import click
@@ -48,7 +47,9 @@ def run_monthly_rebalance(
     strategy = MonthlyLiquidateRebalanceStrategy(tickers, events_queue)
     strategy = Strategies(strategy, DisplayStrategy())
 
-
+    # Use the liquidate and rebalance position sizer
+    # with prespecified ticker weights
+    position_sizer = LiquidateRebalancePositionSizer(ticker_weights)
 
 
 
