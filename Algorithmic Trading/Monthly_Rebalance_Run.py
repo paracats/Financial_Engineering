@@ -51,7 +51,8 @@ def run_monthly_rebalance(
     # with prespecified ticker weights
     position_sizer = LiquidateRebalancePositionSizer(ticker_weights)
 
-
+    # Use an example Risk Manager
+    risk_manager = ExampleRiskManager()
 
 
 
