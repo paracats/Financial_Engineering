@@ -54,7 +54,11 @@ def run_monthly_rebalance(
     # Use an example Risk Manager
     risk_manager = ExampleRiskManager()
 
-
+    # Use the default Portfolio Handler
+    portfolio_handler = PortfolioHandler(
+        initial_equity, events_queue, price_handler,
+        position_sizer, risk_manager
+    )
 
 
 
