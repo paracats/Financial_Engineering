@@ -60,7 +60,8 @@ def run_monthly_rebalance(
         position_sizer, risk_manager
     )
 
-
+    # Use the ExampleCompliance component
+    compliance = ExampleCompliance(config)
 
 
 
