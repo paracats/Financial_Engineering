@@ -6,11 +6,11 @@ Concepts and Applications of quantitative finance using C++ & Python & Visual Ba
 
 **Fundamental Data** | **Market Data** | **Analytics** | ** Alternative Data**
 -------------------- | --------------- | ------------- | ---------------------
-- Assets | -  Price/yield/implied volatility | - Analyst recommendations | - Satellite/CCTV images
-- Liabilities | - Volume | - Credit ratings | - Google searches
-- Sales | - Dividend/coupons | - Earnings expectations | - Twitter/chats
-- Costs/earnings | - Open interest | - News sentiment | - Metadata
-- ... | - ... | - ... | - ...
+Assets | Price/yield/implied volatility | Analyst recommendations | Satellite/CCTV images
+Liabilities | Volume | Credit ratings | Google searches
+Sales | Dividend/coupons | Earnings expectations | Twitter/chats
+Costs/earnings | Open interest | News sentiment | Metadata
+... | ... | ... | ...
 
 
 
