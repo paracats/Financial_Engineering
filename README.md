@@ -14,7 +14,6 @@ Costs/earnings | Open interest | News sentiment | Metadata
 
 
 
-
 ## Financial topics: 
 
 - Algorithmic Trading
