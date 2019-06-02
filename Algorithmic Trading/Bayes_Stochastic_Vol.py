@@ -86,5 +86,3 @@ if __name__ == "__main__":
     configure_sample_stoch_vol_model(log_returns, samples)
     
     
-    
-    
