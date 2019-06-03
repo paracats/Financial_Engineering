@@ -34,7 +34,7 @@ public double[] lowerlimitCall(double[]stockprice,double rate,
 }
 public double[] lowerlimitPut(double[]stockprice,double rate,double
                               time, double[] strikeprice)
-{
+ {
    int indx=0;
    double[] lowervalues = new double[stockprice.length];
    for(double s:stockprice)
