@@ -6,7 +6,6 @@ Concepts and Applications of quantitative finance using C++ & Python Java & Visu
 
 - Natural Language Processing
 - Advanced Data Analysis
-- Blockchain Technologies in Finance
 - Systematic Trading
 - Modeling and Market Making in Foreign Exchange
 - Fundamentals of Trading
