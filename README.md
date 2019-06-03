@@ -1,32 +1,32 @@
-# `C++` & `Python` `Java` & `VBA` for Quantitative Finance
-Concepts and Applications of quantitative finance using C++ & Python & Visual Basic.
+# `C++` & `Python` `Java` `R` & `VBA` for Quantitative Finance
+Concepts and Applications of quantitative finance using C++ & Python Java & Visual Basic.
 
-## Data Analysis
-### Financial Data Structures
+## Advanced Quantitative Finance: 
 
-**Fundamental Data** | **Market Data** | **Analytics** | **Alternative Data**
--------------------- | --------------- | ------------- | --------------------
-Assets | Price/yield/implied volatility | Analyst recommendations | Satellite/CCTV images
-Liabilities | Volume | Credit ratings | Google searches
-Sales | Dividend/coupons | Earnings expectations | Twitter/chats
-Costs/earnings | Open interest | News sentiment | Metadata
-... | ... | ... | ...
-
-
-
-## Financial topics: 
-
+- Natural Language Processing
+- Advanced Data Analysis
+- Blockchain Technologies in Finance
+- Systematic Trading
+- Modeling and Market Making in Foreign Exchange
+- Fundamentals of Trading
+- Asset Allocation and Portfolio Management
+- Emerging Markets and Inflation Modeling
+- Interest Rate Models
+- Data Science I: Big Data in Finance
+- Data Science II: Machine Learning
+- Credit Risk Models
+- Volatility Filtering and Estimation
+- Introduction to Financial Econometrics
+- Structured Security Valuation in the Primary Market
+- Behavioral Finance
+- Market Microstructure Models
+- Time Series Analysis
 - Algorithmic Trading
-- Backtesting
-- Binomial Trees
-- Bond 
-- Financial Modeling
-- Loan
-- Monte Carlo Methods
-- Options and the Black-Scholes Model
-- Polymorphism
-- Simulations
-- WebCrawler
+- Advanced Risk and Portfolio Management
+- Fixed Income Risk Management
+- Commodities and Futures Trading
+- The Volatility Surface
+
 
 
 ## License
