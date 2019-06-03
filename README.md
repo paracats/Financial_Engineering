@@ -13,8 +13,6 @@ Concepts and Applications of quantitative finance using C++ & Python Java & Visu
 - Asset Allocation and Portfolio Management
 - Emerging Markets and Inflation Modeling
 - Interest Rate Models
-- Data Science I: Big Data in Finance
-- Data Science II: Machine Learning
 - Credit Risk Models
 - Volatility Filtering and Estimation
 - Introduction to Financial Econometrics
