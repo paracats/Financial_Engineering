@@ -2,6 +2,7 @@
 Concepts and Applications of quantitative finance using C++ & Python Java & Visual Basic.
 
 
+
 ## Advanced Quantitative Finance: 
 
 - Natural Language Processing
@@ -21,6 +22,7 @@ Concepts and Applications of quantitative finance using C++ & Python Java & Visu
 - Fixed Income Risk Management
 - Commodities and Futures Trading
 - The Volatility Surface
+
 
 
 ## License
