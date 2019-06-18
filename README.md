@@ -1,5 +1,5 @@
 # `C++` & `Python` `Java` & `VBA` for Quantitative Finance
-Concepts and Applications of quantitative finance using `C++` & `Python` `Java` & `Visual Basic`.
+Concepts and Applications of Quantitative Finance using `C++` & `Python` `Java` & `Visual Basic`.
 
 
 ## Advanced Quantitative Finance: 
