@@ -4,7 +4,6 @@ Concepts and Applications of quantitative finance using `C++` & `Python` `Java` 
 
 
 ## Advanced Quantitative Finance: 
-
 - Natural Language Processing
 - Advanced Data Analysis
 - Systematic Trading
