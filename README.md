@@ -22,6 +22,5 @@ Concepts and Applications of Quantitative Finance using `C++` & `Python` `Java` 
 - The Volatility Surface
 
 
-
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
