@@ -1,4 +1,4 @@
-/* C++ For Quantitative Finance                                 */
+/* Advanced C++ Design                                          */
 /* Polymorphism with Virtual Functions                          */
 /* Author: David Li                                             */
 
