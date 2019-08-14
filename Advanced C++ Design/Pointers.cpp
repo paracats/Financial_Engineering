@@ -1,4 +1,4 @@
-/* C++ For Quantitative Finance                                 */
+/* Advanced C++ Design                                          */
 /* Using pointers with base & derived classes                   */
 /* Author: David Li                                             */
 
