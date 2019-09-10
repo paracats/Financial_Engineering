@@ -45,7 +45,7 @@
     - Optimal trading strategy with constraints: margin/leverage, draw-downs
     - Asset-liability management
 
-### Market Equilibrium (Wang)
+### Market Equilibrium 
 - Equilibrium analysis
 - Equilibrium asset-pricing models
     - Capital Asset Pricing Model (CAPM)
@@ -55,7 +55,7 @@
     - Equilibrium models for interest rates (Cox-Ingersoll-Ross etc)
     - Equilibrium implications on market leverage, asset allocation, risk premium and volatility
 
-### Equilibrium Models with Frictions (Kogan)
+### Equilibrium Models with Frictions 
 - Asymmetric information
     - Rational expectations and market efficiency: Grossman-Stiglitz model
     - Market micro-structure: Kyle model, Glosten-Milgrom model
@@ -64,7 +64,7 @@
     - Limits to arbitrage
     - Heterogeneous beliefs and mispricing
 
-### Dynamic Strategies and Market Frictions (Kogan)
+### Dynamic Strategies and Market Frictions 
 - Methodology: numerical approach to dynamic programming
 - Optimal order execution
 - Dynamic portfolio strategies with margin constraints and liquidity risk
