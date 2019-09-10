@@ -4,11 +4,11 @@
 
 ### Asset Pricing Theory and Applications
 #### Stochastic modeling in finance
-- State-space model
-- Securities market
-- Trading strategies
-- Complete markets and state prices
-- Arbitrage
+    - State-space model
+    - Securities market
+    - Trading strategies
+    - Complete markets and state prices
+    - Arbitrage
 
 #### Monte Carlo simulations
 #### Arbitrage pricing
