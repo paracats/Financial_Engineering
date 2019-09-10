@@ -3,7 +3,7 @@
 - The repository covers the following topics: asset pricing theory and its applications, financial optimization, market equilibrium,marketfrictions, dynamics trading strategies, risk management, and selected advanced topics in financial engineering and technology (`C++` & `Python` `Java` & `Visual Basic`).
 
 ### Asset Pricing Theory and Applications
-#### Stochastic modeling in finance
+-  Stochastic modeling in finance
     - State-space model
     - Securities market
     - Trading strategies
