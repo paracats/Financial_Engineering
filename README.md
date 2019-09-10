@@ -1,5 +1,8 @@
 # `C++` & `Python` `Java` & `VBA` for Quantitative Finance
-- Concepts and Applications of Quantitative Finance using `C++` & `Python` `Java` & `Visual Basic`.
+
+- The repository covers the following topics: asset pricing theory and its applications, financial optimization, market equilibrium,marketfrictions, dynamics trading strategies, risk management, and selected advanced topics in financial engineering and technology
+
+- Concepts and applications of quantitative finance using `C++` & `Python` `Java` & `Visual Basic`.
 
 ## Advanced Quantitative Finance: 
 - Natural Language Processing
