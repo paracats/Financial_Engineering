@@ -20,7 +20,3 @@ Function VarCovar(rng As Range) As Variant
     Next i       
     VarCovar  =  matrix    
   End Function  
-    
-    
-    
-    
