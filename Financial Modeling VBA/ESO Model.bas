@@ -57,13 +57,3 @@ n As Single)
 
   ESO = Opt(0, 0)
 End Function
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
