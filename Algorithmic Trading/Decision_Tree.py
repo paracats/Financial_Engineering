@@ -154,5 +154,3 @@ plt.legend(loc=’upper right’)
 plt.xlabel(’Estimators’)
 plt.ylabel(’Mean Squared Error’)
 plt.show()    
-    
-
