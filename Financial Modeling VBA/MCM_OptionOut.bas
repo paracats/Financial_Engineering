@@ -75,9 +75,3 @@ Barrier, Up, Down, Interest, Periods, Runs)
     / Runs
     
 End Function
-
-
-
-
-
-
