@@ -84,5 +84,3 @@ if __name__ == "__main__":
     # MCMC sampling using NUTS, plotting the trace
     samples = 2000
     configure_sample_stoch_vol_model(log_returns, samples)
-    
-    
