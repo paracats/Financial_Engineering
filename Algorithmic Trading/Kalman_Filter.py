@@ -98,6 +98,3 @@ if __name__ == "__main__":
     draw_date_coloured_scatterplot(etfs, prices)
     state_means, state_covs = calc_slope_intercept_kalman(etfs, prices)
     draw_slope_intercept_changes(prices, state_means)
-
-    
-    
