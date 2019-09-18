@@ -12,4 +12,3 @@ Function getformula(r As Range) As String
      " " & r.FormulaArray
      End If
 End Function
-
