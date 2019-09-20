@@ -45,4 +45,3 @@ Range(“starttime”)
 Range(“elapsed”).NumberFormat = “hh:mm:ss”
 
 End Sub
-
