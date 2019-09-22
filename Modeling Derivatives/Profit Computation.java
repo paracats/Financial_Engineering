@@ -114,5 +114,3 @@ public void putprof(double putpr, double exercisepr,
   setLputprof(lngputprofit);
   setSputprof(shrtputprofit);
 }}
-
-
