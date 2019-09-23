@@ -62,9 +62,3 @@ def run_monthly_rebalance(
 
     # Use the ExampleCompliance component
     compliance = ExampleCompliance(config)
-
-    
-    
-
-
-
