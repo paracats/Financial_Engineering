@@ -57,4 +57,3 @@ public void amerparity (double optionprice,double strike,
   }
 }
 }
-
