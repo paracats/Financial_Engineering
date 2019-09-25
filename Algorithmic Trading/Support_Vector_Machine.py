@@ -210,5 +210,3 @@ if __name__ == "__main__":
     # Output the hit-rate and the confusion matrix for each model
     print(svm.score(X_test, y_test))
     print(confusion_matrix(pred, y_test))
-
-
