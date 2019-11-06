@@ -1,4 +1,3 @@
-
 /* C++ For Quantitative Finance                                   */
 /* Computing four correlated deviates for Monte Carlo simulation  */
 /* Author: David Li                                               */
