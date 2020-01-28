@@ -1,4 +1,3 @@
-  
 /* C++ For Quantitative Finance                                                  */
 /* Constructing a lognormal Hull-White tree calibrated to the yield curve        */
 /* Author: David Li                                                              */
