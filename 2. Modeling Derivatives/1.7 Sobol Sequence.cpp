@@ -1,4 +1,3 @@
-
 /* C++ For Quantitative Finance                                   */
 /* Computing a Sobol Sequence                                     */
 /* Author: David Li                                               */
