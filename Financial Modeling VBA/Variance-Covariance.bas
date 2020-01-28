@@ -27,8 +27,3 @@ As Variant
     If Abs(corr)  >  =  1 Then constantcorr  =  VarCovar(data) _ 
     Else constantcorr  =  matrix 
 End Function
-
-
-
-
-
