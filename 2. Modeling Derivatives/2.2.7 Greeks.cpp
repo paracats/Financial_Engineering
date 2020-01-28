@@ -2,7 +2,6 @@
 /* Greeks (Delta, Theta, Gamma, Vega, and Rho)                  */
 /* Author: David Li                                             */
 
-
 #include <iostream>
 #include <cmath>
 using namespace std;
