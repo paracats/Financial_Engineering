@@ -29,7 +29,3 @@ As Variant
    Next i        
    sim  =  matrix 
 End Function  
-
-    
-    
-    
