@@ -1,4 +1,3 @@
-
 ' VBA For Quantitative Finance                                
 ' AmericanPuts
 ' Author: David Li   
