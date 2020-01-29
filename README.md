@@ -17,15 +17,6 @@
 **NBER**: | Business cycles, vital statistics, report of presidents
 
 
-### Bond Valuation
-
-- Relationship between bond price, coupon rate, and face value
-
-**Condition** | **Bond price versus face value** | **Premium, par, and discount**
--------------------- | -------------------- | --------------------
-Coupon rate> YTM | Price of bond> FV | At a premium
-Coupon rate =YTM | Price of bond=FV | At par
-Coupon rate <YTM | Price of bond<FV | At a discount
 
 
 
