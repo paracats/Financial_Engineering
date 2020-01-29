@@ -3,7 +3,7 @@
 - The repository covers the following topics: asset pricing theory and its applications, financial optimization, market equilibrium, dynamics trading strategies, risk management, and selected advanced topics in financial engineering and technology.
 
 
-# Public Data Sources
+### Public Data Sources
 **Name** | **Data types**
 -------------------- | --------------------
 **Yahoo Finance**: | Historical price, annual and quarterly financial statements, and so on
@@ -17,7 +17,7 @@
 **NBER**: | Business cycles, vital statistics, report of presidents
 
 
-# Bond Valuation
+### Bond Valuation
 
 - Relationship between bond price, coupon rate, and face value
 
@@ -31,5 +31,5 @@ Coupon rate <YTM | Price of bond<FV | At a discount
 
 
 
-# License
+### License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
