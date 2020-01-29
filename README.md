@@ -25,13 +25,17 @@
 
 1.2.1 The Index Set I
 The set I indexes and determines the type of stochastic process. This set can be quite general but here are some examples:
-
 - If I = {0, 1, 2 …} or equivalent, we obtain the so-called discrete-time stochastic processes. We shall often write the process as {Xn}n∈ℕ in this case.
 - If I = [0, ∞), we obtain the continuous-time stochastic processes. We shall write the process as {Xt}t≥0 in this case. Most of the time t represents time.
 - The index set can be multidimensional. For example, with I = ℤ × ℤ, we may be describing a discrete random field where at any combination (x, y) ∈ I we have a value X(x, y) which may represent some node weights in a two-dimensional graph. If I = [0, 1]×[0, 1] we may be describing the structure of some surface where, for instance, X(x, y) could be the value of some electrical field intensity at position (x, y).
 
 
 
+
+
+
+### Reference
+Mariani, M. C., & Florescu Ionuţ. (2020). Quantitative finance. Hoboken, NJ: Wiley.
 
 ### License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
