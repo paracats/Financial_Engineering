@@ -1,6 +1,6 @@
 ' VBA For Quantitative Finance                                
 ' TwoStageGordon
-' Author: David Li  
+' Author: Shaofei Li  
 
 Function TwoStageGordon(P0, Div0, Highgrowth, _    
 Highgrowthyrs, Normalgrowth)        
