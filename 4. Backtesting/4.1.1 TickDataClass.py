@@ -1,6 +1,6 @@
 """ Python For Quantitative Finance    """ 
 """ Tick Data Class                    """
-""" David Li                           """
+""" Shaofei Li                         """
 
 class TickData:
     """ Store a single unit of data """
