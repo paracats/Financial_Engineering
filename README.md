@@ -49,7 +49,8 @@ images of sets in ℝ through X. That is,
 This abstract concept is necessary to make sure that we may calculate any probability
 related to the random variable X.
 
-1.2.3 Adaptiveness, Filtration, and Standard Filtration
+1.2.3 Adaptiveness, Filtration, and Standard Filtration:
+
 In the special case when the index set I possesses a total order relationship,1 we can discuss about the information contained in the process X(t) at some moment t ∈ I. To quantify this information we generalize the notion of sigma algebras by introducing a sequence of sigma algebras: the filtration.
 
 (To be continued...)
