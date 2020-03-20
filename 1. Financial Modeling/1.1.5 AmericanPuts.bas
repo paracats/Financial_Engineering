@@ -1,6 +1,6 @@
 ' VBA For Quantitative Finance                                
 ' AmericanPuts
-' Author: David Li   
+' Author: Shaofei Li   
 
 Function Binomial_amer_put(Up, Down, Interest, _
 Stock, Exercise, Periods)
