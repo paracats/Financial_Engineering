@@ -1,6 +1,6 @@
 ' VBA For Quantitative Finance                                
 ' Simulating Stock Prices
-' Author: David Li                                           
+' Author: Shaofei Li                                           
 
 ‘Simulating the lognormal distribution
 ‘Note that I take delta = 1!
