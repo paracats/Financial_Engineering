@@ -1,6 +1,6 @@
 ' VBA For Quantitative Finance                                
 ' DDuration(numPayments, couponRate, YTM, timeFirst)
-' Author: David Li                                           
+' Author: Shaofei Li                                           
 
 Function DDuration(NumPayments, CouponRate, _
 YTM, TimeFirst)
