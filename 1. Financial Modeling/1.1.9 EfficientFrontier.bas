@@ -1,6 +1,6 @@
 ' VBA For Quantitative Finance                                
 ' Efficient Frontier
-' Author: David Li   
+' Author: Shaofei Li   
 
 Sub Solve()       
         SolverOk SetCell: = ”$B$19”, MaxMinVal: = 1, 
