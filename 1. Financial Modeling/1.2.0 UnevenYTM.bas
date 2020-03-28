@@ -1,6 +1,6 @@
 ' VBA For Quantitative Finance                                
 ' YTM for Uneven Payments 
-' Author: David Li                                           
+' Author: Shaofei Li                                           
 
 Function Annuityvalue(interest, numPeriods)
    annuityvalue = 0
