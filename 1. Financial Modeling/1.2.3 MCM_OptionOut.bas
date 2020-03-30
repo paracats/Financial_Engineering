@@ -1,6 +1,6 @@
 ' VBA For Quantitative Finance                                
 ' Monte Carlo Methods
-' Author: David Li    
+' Author: Shaofei Li    
 
 Function MCBarrierIn(Initial, Exercise, Barrier, Up, _
 Down, Interest, Periods, Runs)
