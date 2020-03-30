@@ -1,6 +1,6 @@
 ' VBA For Quantitative Finance                                
 ' ImpliedVolVarCov
-' Author: David Li  
+' Author: Shaofei Li  
 
  Function ImpliedVolVarCov(varcovarmatrix As _ 
   Range, volatilities As Range, corr As Double) 
