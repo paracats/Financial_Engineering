@@ -1,6 +1,6 @@
 ' VBA For Quantitative Finance                                
 ' Monte Carlo Methods
-' Author: David Li                                           
+' Author: Shaofei Li                                           
 
 Function SuccessfulRuns(Initial, _
 Drawdown, Interest, Mean, Sigma, _
