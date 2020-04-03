@@ -1,6 +1,6 @@
 ' VBA For Quantitative Finance                                
 ' secondDur(numberPayments, couponRate, YTM)
-' Author: David Li                                           
+' Author: Shaofei Li                                           
 
 Function secondDur(numberPayments, couponRate,
 YTM)
