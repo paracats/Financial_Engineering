@@ -1,6 +1,6 @@
 ' VBA For Quantitative Finance                                
 ' SIM
-' Author: David Li  
+' Author: Shaofei Li  
 
 Function sim(assetdata As Range, marketdata As Range) _ 
 As Variant 
