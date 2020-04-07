@@ -1,6 +1,6 @@
 ' VBA For Quantitative Finance                                
 ' Getformula
-' Author: David Li   
+' Author: Shaofei Li   
 
 Function getformula(r As Range) As String
     Application.Volatile
