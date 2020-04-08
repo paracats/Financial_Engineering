@@ -1,6 +1,6 @@
 ' VBA For Quantitative Finance                                
 ' Co-variance
-' Author: David Li   
+' Author: Shaofei Li   
 
 Function VarCovar(rng As Range) As Variant 
     Dim i As Integer       
