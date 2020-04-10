@@ -1,6 +1,6 @@
 ' VBA For Quantitative Finance                                
 ' TIntercept
-' Author: David Li  
+' Author: Shaofei Li  
 
 Function tintercept(yarray, xarray)        
     tintercept  =  Application.Index(Application. _        
