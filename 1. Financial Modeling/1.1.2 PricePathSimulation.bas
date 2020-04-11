@@ -1,6 +1,6 @@
 ' VBA For Quantitative Finance                                
 ' Price Path Simulation
-' Author: S Li  
+' Author: Shaofei Li  
 
 Sub PricePathSimulation()
 Range(“starttime”) = Time
