@@ -1,6 +1,6 @@
 /* C++ For Quantitative Finance                                   */
 /* Generating correlated deviates from a Cholesky decomposition   */
-/* Author: David Li                                               */
+/* Author: Shaofei Li                                             */
 
 #include “newmatap.h”
 #include <vector>
