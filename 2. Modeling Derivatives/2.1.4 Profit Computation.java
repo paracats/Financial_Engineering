@@ -1,6 +1,6 @@
 // Java For Quantitative Finance
 // Profit Computation
-// Author: David Li
+// Author: Shaofei Li
 
 package FinApps;
 public class Putcallpos {
