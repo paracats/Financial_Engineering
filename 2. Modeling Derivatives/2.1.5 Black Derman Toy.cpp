@@ -1,6 +1,6 @@
 /* C++ For Quantitative Finance                                      */
 /* Constructing a BDT(Black–Derman–Toy) tree calibrated to the yield */
-/* Author: David Li                                                  */
+/* Author: Shaofei Li                                                */
 
 void BlackDermanToy::buildBDT(vector<double> yield_curve, double vol, int N, double
   T, double inityield)
