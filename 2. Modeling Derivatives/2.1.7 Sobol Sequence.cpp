@@ -1,6 +1,6 @@
 /* C++ For Quantitative Finance                                   */
 /* Computing a Sobol Sequence                                     */
-/* Author: David Li                                               */
+/* Author: Shaofei Li                                             */
 
 #include <time.h>
 
