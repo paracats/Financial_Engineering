@@ -1,6 +1,6 @@
 /* C++ For Quantitative Finance           */
 /* Options Portfolio Profit at Expiration */                  
-/* Author: David Li                       */
+/* Author: Shaofei Li                     */
 
 #include <iostream>
 using namespace std;
