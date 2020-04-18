@@ -1,6 +1,6 @@
 /* C++ For Quantitative Finance                                 */
 /* Greeks (Delta, Theta, Gamma, Vega, and Rho)                  */
-/* Author: David Li                                             */
+/* Author: Shaofei Li                                           */
 
 #include <iostream>
 #include <cmath>
