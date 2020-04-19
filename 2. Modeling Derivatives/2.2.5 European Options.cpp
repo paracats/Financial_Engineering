@@ -1,6 +1,6 @@
 /* C++ For Quantitative Finance                                 */
 /* European options (dividend yield)                            */
-/* Author: David Li                                             */
+/* Author: Shaofei Li                                           */
 
 
 #include <iostream>
