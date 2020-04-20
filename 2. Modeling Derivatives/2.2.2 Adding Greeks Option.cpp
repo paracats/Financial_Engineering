@@ -1,6 +1,6 @@
 /* C++ For Quantitative Finance                                 */
 /* Adding calculations of the Greeks to the Option class        */
-/* Author: David Li                                             */
+/* Author: Shaofei Li                                           */
 
  #include <iostream>
  using namespace std;
