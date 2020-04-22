@@ -1,7 +1,7 @@
 
 /* C++ For Quantitative Finance                                   */
 /* Monte Carlo Implementation using the Sobol sequence            */
-/* Author: David Li                                               */
+/* Author: Shaofei Li                                             */
 
 double MonteCarloMethod::MonteCarloSobol(double price, double strike, double vol,
   double rate, double div, double T, char type, long N, long M)
