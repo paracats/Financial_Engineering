@@ -1,6 +1,6 @@
 """ C++ For Quantitative Finance  """  
 """ Binomial American Option      """
-""" David Li                      """
+""" Shaofei Li                    """
 
 import math
 import numpy as np
