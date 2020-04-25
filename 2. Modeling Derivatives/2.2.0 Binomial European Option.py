@@ -1,6 +1,6 @@
 """ C++ For Quantitative Finance       """ 
 """ Advanced Binomial European Option  """
-""" David Li                           """
+""" Shaofei Li                         """
 
 """ Store common attributes of a stock option """
 import math
