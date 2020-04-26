@@ -1,6 +1,6 @@
 /* C++ For Quantitative Finance                                 */
 /* American options                                             */
-/* Author: David Li                                             */
+/* Author: Shaofei Li                                           */
 
  #include <iostream>
  #include <string>
