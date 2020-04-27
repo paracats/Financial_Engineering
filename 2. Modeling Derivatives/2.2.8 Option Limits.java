@@ -1,6 +1,6 @@
 // Java For Quantitative Finance
 // Option Limits
-// Author: David Li 
+// Author: Shaofei Li 
 
 package FinApps;
 import static FinApps.PresentValue.*;
