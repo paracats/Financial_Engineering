@@ -1,6 +1,6 @@
 /* C++ For Quantitative Finance                                       */
 /* Option Pricing                                                     */  
-/* Author: David Li                                                   */
+/* Author: Shaofei Li                                                 */
 
 
 #include <cmath>
