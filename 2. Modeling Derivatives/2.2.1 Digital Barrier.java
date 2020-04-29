@@ -1,6 +1,6 @@
 // Java For Quantitative Finance
 // Digital Barrier
-// Author: David Li
+// Author: Shaofei Li
 
 package FinApps;
 import static java.lang.Math.*;
