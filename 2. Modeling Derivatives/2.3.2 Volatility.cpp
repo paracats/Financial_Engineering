@@ -1,6 +1,6 @@
 /* C++ For Quantitative Finance                    */
 /* Volatility Calculation                          */
-/* Author: David Li                                */
+/* Author: Shaofei Li                              */
 
 
 #include <iostream>
