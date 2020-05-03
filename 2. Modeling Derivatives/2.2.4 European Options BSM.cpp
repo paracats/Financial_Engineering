@@ -1,6 +1,6 @@
 /* C++ For Quantitative Finance                                 */
 /* European options based on the BSM equations                  */
-/* Author: David Li                                             */
+/* Author: Shaofei Li                                           */
 
  #include <iostream>
  #include <cmath>
