@@ -1,7 +1,7 @@
 
 /* C++ For Quantitative Finance */
 /* Option                       */          
-/* Author: David Li             */
+/* Author: Shaofei Li           */
 
 #include <iostream>
 using namespace std;
