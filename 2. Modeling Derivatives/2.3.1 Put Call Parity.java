@@ -1,6 +1,6 @@
 // Java For Quantitative Finance
 // Put Call Parity
-// Author: David Li
+// Author: Shaofei Li
 
 package FinApps;
 import static java.lang.Math.*;
