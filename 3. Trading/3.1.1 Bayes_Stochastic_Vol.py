@@ -1,6 +1,6 @@
 """ Python For Quantitative Finance    """ 
 """ Bayes_Stochastic_Vol               """
-""" David Li                           """
+""" Shaofei Li                         """
 
 import datetime
 import pprint
