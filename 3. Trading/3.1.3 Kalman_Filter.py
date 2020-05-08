@@ -1,6 +1,6 @@
 """ Python For Quantitative Finance                                             """ 
 """ Dynamic Hedge Ratio Between ETF Pairs Using the Kalman Filter               """
-""" David Li                                                                    """
+""" Shaofei Li                                                                  """
 
 from __future__ import print_function
 
