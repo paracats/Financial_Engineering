@@ -1,6 +1,6 @@
 """ Python For Quantitative Finance    """ 
 """ Monthly_Rebalance_Run              """
-""" David Li                           """
+""" Shaofei Li                         """
 
 import datetime
 
