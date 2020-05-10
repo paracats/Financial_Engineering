@@ -1,6 +1,6 @@
 """ Python For Quantitative Finance    """ 
 """ Support_Vector_Machine             """
-""" David Li                           """
+""" Shaofei Li                         """
 
 from __future__ import print_function
 
