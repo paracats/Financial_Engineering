@@ -1,6 +1,6 @@
 """ Python For Quantitative Finance    """ 
 """ MarketDataClass                    """
-""" David Li                           """
+""" Shaofei Li                         """
 
 class MarketData:
     def __init__(self):
