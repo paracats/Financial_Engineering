@@ -1,6 +1,6 @@
 """ Python For Quantitative Finance """ 
 """ MarketDataSourceClass           """
-""" David Li                        """
+""" Shaofei Li                      """
 
 import pandas.io.data as web
 
