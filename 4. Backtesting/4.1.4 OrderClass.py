@@ -1,6 +1,6 @@
 """ Python For Quantitative Finance    """ 
 """ Order Class                        """
-""" David Li                           """
+""" Shaofei Li                         """
 
 class Order:
     def __init__(self, timestamp, symbol, qty, is_buy,
