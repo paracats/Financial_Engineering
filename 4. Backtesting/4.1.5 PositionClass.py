@@ -1,6 +1,6 @@
 """ Python For Quantitative Finance    """ 
 """ PositionClass                      """
-""" David Li                           """
+""" Shaofei Li                         """
 
 class Position:
     def __init__(self):
