@@ -1,6 +1,6 @@
 """ Python For Quantitative Finance  """ 
 """ BacktesterClass                  """
-""" David Li                         """
+""" Shaofei Li                       """
 """ Base strategy for implementation """
 
 class Strategy:
