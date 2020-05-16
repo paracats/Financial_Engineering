@@ -1,6 +1,6 @@
 """ Python For Quantitative Finance     """ 
 """ Mean Reverting Strategy Class       """
-""" David Li                            """
+""" Shaofei Li                          """
 """
 Implementation of a mean-reverting strategy
 based on the Strategy class             """
