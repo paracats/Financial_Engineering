@@ -1,6 +1,6 @@
 """ Python For Quantitative Finance    """ 
 """ BacktesterClass                    """
-""" David Li                           """
+""" Shaofei Li                         """
 
 import datetime as dt
 import pandas as pd
