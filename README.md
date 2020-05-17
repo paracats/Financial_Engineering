@@ -17,3 +17,6 @@ This repository covers the following topics: asset pricing theory and its applic
 
 ### License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
+
+
+\int \! \left( {x}^{2}+1 \right) ^{-1}\,{\rm d}x=\arctan \left( x \right)
