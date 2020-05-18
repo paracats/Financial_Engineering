@@ -1,6 +1,6 @@
 """ Python For Quantitative Finance    """ 
 """ BacktestingSystem                  """
-""" David Li                           """
+""" Shaofei Li                         """
 
 from BacktesterClass import Backtester
 
