@@ -1,6 +1,6 @@
 /* Advanced C++ Design                                          */
 /* C++ Associative Containers                                   */
-/* Author: David Li                                             */
+/* Author: Shaofei Li                                           */
 
 #include <iostream> 
 #include <set> 
