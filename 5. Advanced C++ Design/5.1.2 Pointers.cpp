@@ -1,6 +1,6 @@
 /* Advanced C++ Design                                          */
 /* Using pointers with base & derived classes                   */
-/* Author: David Li                                             */
+/* Author: Shaofei Li                                           */
 
  #include <iostream>
  #include <string>
