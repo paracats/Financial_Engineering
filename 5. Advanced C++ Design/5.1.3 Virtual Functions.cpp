@@ -1,6 +1,6 @@
 /* Advanced C++ Design                                          */
 /* Polymorphism with Virtual Functions                          */
-/* Author: David Li                                             */
+/* Author: Shaofei Li                                           */
 
  #include <iostream>
  #include <string>
