@@ -1,6 +1,6 @@
 /* Advanced C++ Design                                          */
 /* Control Structures - Repetition                              */
-/* Author: David Li                                             */
+/* Author: Shaofei Li                                           */
 
 #include <iostream>
 #include <iomanip>
