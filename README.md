@@ -32,7 +32,7 @@ The following topics are covered below:
 **NBER**: | Business cycles, vital statistics, report of presidents
 
 ### Reference
-- [A Primer for the Mathematics of Financial Engineering](http://www.fepress.org/primer-second-ed/)
+Stefanica, Dan. A Primer for the Mathematics of Financial Engineering. FE Press, 2008.
 
 
 ### License
