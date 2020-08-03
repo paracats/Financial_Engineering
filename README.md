@@ -1,5 +1,5 @@
 # Quantitative Finance
-This repository covers the following topics: asset pricing theory and its applications, financial optimization, market equilibrium, dynamics trading strategies, risk management, and selected advanced topics in financial engineering and technology.
+This repository includes the following topics: asset pricing theory and its applications, financial optimization, market equilibrium, dynamics trading strategies, risk management, and selected advanced topics in financial engineering and technology.
 
 ### Contents
 The following topics are covered below: 
